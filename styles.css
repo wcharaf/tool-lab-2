@@ -1,8 +1,7 @@
-* {
-  border: 1px solid #000;
-}
-body,
-background-color #ADD8E6,
 h1 {
-  align-text: center;
+  text-align: center;
+}
+.form {
+  border-style: 3px solid #f00;
+  text-align: center;
 }
