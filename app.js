@@ -8,7 +8,8 @@ function convertor(temp) {
   var celc=document.getElementById("selectC").checked;
 
   var elementTemp=document.createElement('div');
-  console.log(fehr);
+  document.getElementById("answer").innerHTML = "";
+  // document.appendChild(elementTemp);
 
 
   if (fehr) {
