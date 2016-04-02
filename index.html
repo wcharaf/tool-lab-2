@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -12,14 +14,19 @@
     </h1>
   </div>
 
-  <div id="box">
-    <input type="text" class="form-control" placeholder="Text input">
-    <label class="checkbox-inline">
-    <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+  <div id="form">
+    <input id="inputTemp" type="number" step=".1" class="form-control" placeholder="Temperature">
+      
+    <label class="radio-inline">
+    <input type="radio" id="selectF" value="f"> F
     </label>
-    <label class="checkbox-inline">
-    <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+     <label class="radio-inline">
+    <input type="radio" id="selectC" value="c"> C
     </label>
+
+  </div>
+  <div class="jumbotron" id="answer">
+
   </div>
 </body>
 </html>
