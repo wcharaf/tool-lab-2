@@ -18,15 +18,22 @@
     <input id="inputTemp" type="number" step=".1" class="form-control" placeholder="Temperature">
       
     <label class="radio-inline">
-    <input type="radio" id="selectF" value="f"> F
+    <input name="inlineRadioOptions" type="radio" id="selectF" value="fehr"> F
     </label>
      <label class="radio-inline">
-    <input type="radio" id="selectC" value="c"> C
+    <input name="inlineRadioOptions" type="radio" id="selectC" value="celc"> C
     </label>
 
+    <button type="button" class="btn btn-default btn-lg active" onclick="convertor()" >
+        Convert
+    </button>
+
   </div>
+
+
   <div class="jumbotron" id="answer">
 
   </div>
+  <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
