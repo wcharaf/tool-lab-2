@@ -1,7 +1,19 @@
 h1 {
   text-align: center;
+  background-color: #fff;
 }
-.form {
-  border-style: 3px solid #f00;
+body {
+  width: 100%;
+  align: center;
+  background-color: #fa8072;
+}
+fieldset {
+  width: 300px;
+  margin: auto;
+  padding: 10px;
   text-align: center;
+  border: 3px solid #000;
+}
+.answer {
+  padding: 10px;
 }

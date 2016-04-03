@@ -14,13 +14,13 @@ function convertor(temp) {
 
   if (fehr) {
     ntemp= (temp-32)*(5/9);
-    elementTemp.innerHTML = temp+" degrees in F is equal to " +ntemp.toFixed(2)+" degrees in C";
+    elementTemp.innerHTML = temp+"˚ F = " + ntemp.toFixed(2) + "˚ C";
     answer.appendChild(elementTemp);
   }
   //else (type==="C")||
   else if (celc) {
     var ntemp = (temp *(9/5))+32;
-    elementTemp.innerHTML= temp+" degrees in C is equal to " +ntemp.toFixed(2)+" degrees in F";
+    elementTemp.innerHTML= temp+"˚ C = " + ntemp.toFixed(2) + "˚ F";
     answer.appendChild(elementTemp);
   }
   else {
